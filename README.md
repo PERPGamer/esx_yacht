@@ -2,5 +2,5 @@
 
 **The script adds a yacht robbery to FiveM.**
 
-** Dependency ** 
+**Dependency** 
 - es_extended
