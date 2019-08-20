@@ -1,11 +1,21 @@
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
 
-client_scripts {
-    "client/main.lua",
-    "config.lua"
-}
+description 'ESX Yacht Robbery'
+
+version '1.0.0'
 
 server_scripts {
-    "server/main.lua",
-    "config.lua"
+    '@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/pl.lua',
+	'config.lua',
+	'server/main.lua'
+}
+
+client_scripts {
+	'@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/pl.lua',
+	'config.lua',
+	'client/main.lua'
 }
