@@ -45,7 +45,7 @@ AddEventHandler('esx_yacht:reward', function()
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	
-	xPlayer.addMoney(GetRandomIntInRange(Config.MinReward,Config.MaxReward))
+	xPlayer.addMoney(math.random(Config.MinReward,Config.MaxReward))
 end)
 
 function LSPD()
